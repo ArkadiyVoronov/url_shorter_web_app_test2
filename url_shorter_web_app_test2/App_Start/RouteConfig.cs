@@ -16,7 +16,7 @@ namespace url_shorter_web_app_test2
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Url", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
